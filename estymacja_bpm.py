@@ -5,7 +5,7 @@ import struct # konwersja bajtow na liczby
 import matplotlib # wykresy
 matplotlib.use('TkAgg')
 import matplotlib.pyplot as plt
-import scipy.signal as signal # czesc biblioteki scipy do przetwarzania sygnalow
+import scipy.signal as signal # czesc biblioteki scipy do przetwarzania sygnalów
 
 
 class EstymatorTempa:
@@ -441,4 +441,3 @@ if __name__ == '__main__':
     root = tk.Tk()
     apliakcja = EstymatorTempa(root)
     root.mainloop()
-
