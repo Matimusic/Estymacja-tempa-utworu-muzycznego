@@ -442,4 +442,3 @@ if __name__ == '__main__':
     apliakcja = EstymatorTempa(root)
     root.mainloop()
 
-
